@@ -1,1 +1,29 @@
 @charset "UTF-8";
+
+:root{
+    --cor-bg: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor-bg);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;  
+}
+
+input{
+    padding: 3px 5px; 
+}
