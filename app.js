@@ -10,14 +10,14 @@ function trocarCor(){
     console.log(tInput)
 
 
-    if(tInput == "amarelo" || tInput.value == "Amarelo"){
+    if(tInput == "amarelo"){
         tInput = "yellow" 
         console.log(tInput.value)
-    }else if (tInput == "vermelho" || tInput == "Vermelho"){
+    }else if (tInput == "vermelho"){
         tInput = "red"
-    }else if(tInput == "verde" || tInput == "Verde"){
+    }else if(tInput == "verde"){
         tInput = "green"
-    }else if(tInput == "azul" || tInput == "Azul"){
+    }else if(tInput == "azul" ){
         tInput = "blue"
     }
     
